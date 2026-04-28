@@ -1,5 +1,8 @@
 name: Update overlay data
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 * * * *"   # elk uur
